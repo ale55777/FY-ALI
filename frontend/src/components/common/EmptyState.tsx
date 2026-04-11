@@ -10,7 +10,7 @@ interface EmptyStateProps {
 
 export default function EmptyState({
   icon,
-  message = "Nothing here yet.",
+  message = "Nothing here yet to change.",
   action,
 }: EmptyStateProps) {
   return (
