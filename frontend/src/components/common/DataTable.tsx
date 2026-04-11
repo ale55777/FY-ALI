@@ -24,7 +24,7 @@ export default function DataTable<T>({
   data,
   rowKey,
   emptyIcon,
-  emptyMessage = "No data found.",
+  emptyMessage = "No data found here .",
   onRowClick,
   className,
 }: DataTableProps<T>) {
